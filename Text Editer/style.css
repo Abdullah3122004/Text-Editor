@@ -1,0 +1,27 @@
+.text{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+input{
+    height: 40px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px ; 
+}
+h1{
+    text-align: center;
+}
+.color{
+    height: 20px;
+    width: 40px;
+}
