@@ -11,11 +11,10 @@ normal.addEventListener("click",function(){
     input_text.style.fontWeight= "normal"
     input_text.style.fontStyle= "normal"
     input_text.style.textDecoration="none"
-    input_text.style.fontSize=fontsize.value+"15px"
-    input_text.style.fontFamily=fontfamily.sans-serif;
+    input_text.style.fontSize=fontsize.value+"50px"
+    input_text.style.fontFamily=fontfamily.value;
+    input_text.style.color=color.black;
 })
-
-
 
 bold.addEventListener( "click",function(){
     input_text.style.fontWeight= "bold"
@@ -27,9 +26,11 @@ Underline.addEventListener( "click",function(){
    input_text.style.textDecoration="underline"
 })
 fontsize.addEventListener( "click",function(){
-    input_text.style.fontSize=fontsize.value+"20px"
+    input_text.style.fontSize=fontsize.value+"40px"
  })
  fontfamily.addEventListener( "click",function(){
-   input_text.style.fontFamily=fontfamily.PoetsenOne, sans-serif;
+   input_text.style.fontFamily=fontfamily.none;
  })
- 
+ color.addEventListener("input", function () {
+     input_text.style.color = color.value;
+});
